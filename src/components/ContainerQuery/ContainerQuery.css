@@ -1,0 +1,20 @@
+.ContainerQueryWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  container-type: inline-size;
+  container-name: containerQueryDemo;
+
+  div {
+    height: 300px;
+    width: 80%;
+    background-color: red;
+  }
+
+  @container containerQueryDemo (max-width: 400px) {
+    div {
+      background-color: blue;
+    }
+  }
+}

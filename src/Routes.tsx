@@ -1,3 +1,4 @@
+import ContainerQuery from "./components/ContainerQuery/ContainerQuery";
 import ErrorBoundaryDemo from "./components/ErrorBoundary/ErrorBoundaryDemo";
 import MultiLangDemo from "./components/MultiLang/MultiLangDemo";
 import ReactHookFormDemo from "./components/ReactHookForm/ReactHookFormDemo";
@@ -23,5 +24,10 @@ export const RouteArr = [
     path: "/multi-lang",
     component: <MultiLangDemo />,
     title: "Multi Language Demo",
+  },
+  {
+    path: "/container-query",
+    component: <ContainerQuery />,
+    title: "Container Query Demo",
   },
 ];
